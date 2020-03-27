@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  background-color: #F6F4F3;
+  color: #183059;
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+
+.wrapper-emojis {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+header, footer {
+  background-color: #F03A47;
+  color: #F6F4F3;
+  padding: 2em;
+}
+
+.emoji-card {
+  border: #276FBF solid 3px;
+  border-radius: 10%;
+  margin: 2%;
+  width: 15%;
+  min-width: 100px;
+  text-align: center;
+}
+
+.emoji-card h2 {
+  font-size: 8vw;
+}
+
+
+main {
+  flex: 1;
+  padding: 2em;
+}
