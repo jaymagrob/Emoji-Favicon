@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Emoji-Favicon/static/css/main.da022f6b.chunk.css",
-    "main.js": "/Emoji-Favicon/static/js/main.5bd4ce2d.chunk.js",
-    "main.js.map": "/Emoji-Favicon/static/js/main.5bd4ce2d.chunk.js.map",
+    "main.css": "/Emoji-Favicon/static/css/main.6fc02771.chunk.css",
+    "main.js": "/Emoji-Favicon/static/js/main.9a6796d8.chunk.js",
+    "main.js.map": "/Emoji-Favicon/static/js/main.9a6796d8.chunk.js.map",
     "runtime-main.js": "/Emoji-Favicon/static/js/runtime-main.9a972e43.js",
     "runtime-main.js.map": "/Emoji-Favicon/static/js/runtime-main.9a972e43.js.map",
     "static/js/2.47ccf955.chunk.js": "/Emoji-Favicon/static/js/2.47ccf955.chunk.js",
     "static/js/2.47ccf955.chunk.js.map": "/Emoji-Favicon/static/js/2.47ccf955.chunk.js.map",
     "index.html": "/Emoji-Favicon/index.html",
-    "precache-manifest.2c62f9db05277fe18f80f0d76e04659a.js": "/Emoji-Favicon/precache-manifest.2c62f9db05277fe18f80f0d76e04659a.js",
+    "precache-manifest.7acedb3fcc344aa4043f0071d3e3c825.js": "/Emoji-Favicon/precache-manifest.7acedb3fcc344aa4043f0071d3e3c825.js",
     "service-worker.js": "/Emoji-Favicon/service-worker.js",
-    "static/css/main.da022f6b.chunk.css.map": "/Emoji-Favicon/static/css/main.da022f6b.chunk.css.map",
+    "static/css/main.6fc02771.chunk.css.map": "/Emoji-Favicon/static/css/main.6fc02771.chunk.css.map",
     "static/js/2.47ccf955.chunk.js.LICENSE.txt": "/Emoji-Favicon/static/js/2.47ccf955.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9a972e43.js",
     "static/js/2.47ccf955.chunk.js",
-    "static/css/main.da022f6b.chunk.css",
-    "static/js/main.5bd4ce2d.chunk.js"
+    "static/css/main.6fc02771.chunk.css",
+    "static/js/main.9a6796d8.chunk.js"
   ]
 }
