@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "85c50ffbc1856c3c29009693b9da3395",
+    "revision": "774d7a6d380a1343ac0d6f6606c65b9c",
     "url": "/Emoji-Favicon/index.html"
   },
   {
-    "revision": "44eb07e780f2f5198cca",
+    "revision": "b260e6b171788a7aa873",
     "url": "/Emoji-Favicon/static/css/main.6fc02771.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Emoji-Favicon/static/js/2.47ccf955.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "44eb07e780f2f5198cca",
-    "url": "/Emoji-Favicon/static/js/main.9a6796d8.chunk.js"
+    "revision": "b260e6b171788a7aa873",
+    "url": "/Emoji-Favicon/static/js/main.88ef8419.chunk.js"
   },
   {
     "revision": "7097fc37b34211ebef21",
