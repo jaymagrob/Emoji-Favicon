@@ -17,7 +17,8 @@ class Main extends React.Component {
     startData: [],
     error: 'Loading Emojis. Please wait a few seconds.',
     dropDown: 'all',
-    input: ''
+    input: '',
+    show: 10
   }
   async componentDidMount() {
     try {
@@ -34,7 +35,8 @@ class Main extends React.Component {
   clicktest = (data) => {
     const title = data.unicodeName.split(' ').map(i => i.charAt().toUpperCase() + i.slice(1).toLowerCase()).join(' ')
     this.setState({favicon: data.character, title})
-    
+    window.scrollTo(0, 0)
+  
   }
 
   handleChangeDropdown = (e) => {
@@ -49,15 +51,18 @@ class Main extends React.Component {
     this.filterEmojis('input', input)
   }
 
+  
+
   filterEmojis = (type, filter) => {
     if(type === 'drop' && filter === "All") return this.setState({data: this.state.startData})
-    if(type === 'input' && !filter) return this.setState({data: this.state.startData})
+    if(type === 'input'  && !filter) return this.setState({data: this.state.startData})
     const data = this.state.startData.filter(i => {
       if(type==='drop') {
         return i.group === filter
       }
       if(type==='input') {
-        return i.unicodeName.search(filter.toLowerCase()) > -1
+        const reg = new RegExp(filter,'i')
+        return i.unicodeName.match(reg)
       }
     })
     this.setState({data})
